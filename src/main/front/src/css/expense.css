@@ -1,0 +1,59 @@
+#expense .flex {
+  display: flex;
+}
+
+#expense .space-between {
+  justify-content: space-between;
+}
+
+#expense .tc-pk {
+  color: var(--primary_k);
+}
+
+#expense .bg_n0 {
+  background-color: var(--natural_0);
+}
+
+#expense .bg_n10 {
+  background-color: var(--natural_10);
+}
+#expense .display_none {
+  display: none;
+}
+
+#expense .border_none {
+  border: none;
+}
+
+#expense .border_bottom {
+  border-bottom: 1px solid black;
+}
+
+#expense .border_radius10 {
+  border-radius: 10px;
+}
+
+#expense .width100 {
+  width: 100%;
+}
+
+/* 카테고리 버튼 그룹 */
+
+#expense .expense-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  background-color: #ddd;
+  color: #333;
+  border-radius: 6px;
+}
+
+#expense .expense-button.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+#expense .space-around {
+  justify-content: space-around;
+}
+
+#expense .input-max { border-radius: .5rem; }
