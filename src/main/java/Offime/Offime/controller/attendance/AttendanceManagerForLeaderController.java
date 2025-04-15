@@ -34,13 +34,13 @@ public class AttendanceManagerForLeaderController {
     }
 
     // 전체 직원 수 조회
-    @GetMapping("total")
+    @GetMapping("/total")
     public long getTotalEmployees() {
         return attendanceManagerForLeaderService.getTotalEmployeeCount();
     }
 
     // 팀별 직원 수 조회
-    @GetMapping("totalByTeam")
+    @GetMapping("/totalByTeam")
     public long getEmployeesByTeam(@RequestParam Team team) {
         return attendanceManagerForLeaderService.getEmployeeCountByTeam(team);
     }
